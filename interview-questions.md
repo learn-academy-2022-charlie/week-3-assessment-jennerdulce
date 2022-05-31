@@ -56,7 +56,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: An anonymous function in JavaScript is a function that is not assigned or saved to a variable, however functions the same way that a regular function would. I know that I've commonly worked with anonymous functions when using higher order functions such as map and filter. These higher order functions actually accept a function as a parameter, more so, an anonymous function.
 
-  Researched answer:
+  Researched answer: AN anoymous function is a function without a name. Anonymous functions are often used as arguments being passed to higher-order functions, also known as call back functions. These type of functions can be used to contain functionality that does not need to be named for overall short term use
+
+   - Reference: [Anonymous Functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
 
 
 ## Looking Ahead: Terms for Next Week
