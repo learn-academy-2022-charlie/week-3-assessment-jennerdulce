@@ -63,8 +63,9 @@
           // No need to change anything ABOVE this line ^
 
           return(
+            <>
             <h1>Draw a Card</h1>
-            <button onClick={}>
+            <button onClick={this.drawCard}>
               Click to Draw a Card
             </button>
             <button onClick={shuffle}>
@@ -79,9 +80,13 @@
                 )
               })}
             </div>
+            </>
           )
         }
       }
+      // 1. React Fragment
+      // 2. onClick missing this.drawCard
+      // 3. missing this to shuffle deck
 
       // No need to change anything below this line
       const domContainer = document.querySelector('#react-container')
